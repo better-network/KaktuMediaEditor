@@ -250,7 +250,7 @@ public extension EditorView {
         set { adjusterView.isJPEGImage = newValue }
     }
     
-    var exportMaxSize: CGFloat {
+    public var exportMaxSize: CGFloat {
         get { adjusterView.exportMaxSize }
         set { adjusterView.exportMaxSize = newValue }
     }

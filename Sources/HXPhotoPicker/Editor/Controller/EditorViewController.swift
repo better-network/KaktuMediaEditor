@@ -561,8 +561,8 @@ open class EditorViewController: HXBaseViewController {
     var loadAssetStatus: LoadAssetStatus = .loadding()
     weak var assetLoadingView: PhotoHUDProtocol?
     
-    var selectedOriginalImage: UIImage?
-    var selectedThumbnailImage: UIImage?
+    public var selectedOriginalImage: UIImage?
+    public var selectedThumbnailImage: UIImage?
     var selectedMosaicImage: CGImage?
     
     var assetRequestID: PHImageRequestID?
