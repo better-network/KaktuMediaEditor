@@ -82,7 +82,7 @@ open class EditorViewController: HXBaseViewController {
     var drawUndoBtn: UIButton!
     var drawUndoAllBtn: UIButton!
     var drawRedoBtn: UIButton!
-    var editorView: EditorView!
+    public var editorView: EditorView!
     var backgroundView: UIScrollView!
     
     var finishScaleAngle: CGFloat = 0
