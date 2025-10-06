@@ -1,105 +1,85 @@
-<h4 align="right">中文 | <strong><a href="https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/README_EN.md">English</a></strong></h4>
-      
 <p align="center">
     <a><img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/sample_graph.png?raw=true"  width = "384" height = "292.65" ></a>
-</p>
+    
 <p align="center">
     <a href="https://github.com/SilenceLove/HXPhotoPicker"><img src="https://travis-ci.org/SilenceLove/HXPhotoPicker.svg?branch=master"></a>
     <a href="https://github.com/SilenceLove/HXPhotoPicker"><img src="https://badgen.net/badge/icon/iOS%2010.0%2B?color=cyan&icon=apple&label"></a>
     <a href="https://github.com/SilenceLove/HXPhotoPicker"><img src="http://img.shields.io/cocoapods/v/HXPhotoPicker.svg?logo=cocoapods&logoColor=ffffff"></a>
     <a href="https://developer.apple.com/Swift"><img src="http://img.shields.io/badge/language-Swift-orange.svg?logo=common-workflow-language"></a>
     <a href="http://mit-license.org"><img src="http://img.shields.io/badge/license-MIT-333333.svg?logo=letterboxd&logoColor=ffffff"></a>
-    <div align="center">一款图片/视频选择器-支持LivePhoto、GIF选择、iCloud/网络资源在线下载、图片/视频编辑</div>
-</p>
+    <div align="center"><a href="https://www.buymeacoffee.com/fengye" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></div>
+    <div align="center">photo/video selector-supports LivePhoto, GIF selection, iCloud resource online download, photo/video editing</div>
+</p> 
 
-## 目录
-* [功能](#功能)
-* [要求](#要求)
-* [安装](#安装)
-* [示例](#示例)
-    * [快速使用](#示例)
-    * [如何支持GIF/网络图片](#如何支持GIF/网络图片)
-    * [如何获取](#如何获取)
-* [更新记录](#更新记录)
-* [演示效果](#演示效果)
-* [界面展示](#界面展示)
-* [支持❤️](#支持❤️) 
+## <a id="Features"></a> Features
 
-## <a id="功能"></a> 功能
-
-- [x] UI 外观支持浅色/深色/自动/自定义
-- [x] 支持多选/混合内容选择
-- [x] 支持的媒体类型：
+- [x] UI Appearance supports light/dark/auto/custom
+- [x] Support multiple selection/mixed content selection
+- [x] Supported media types：
     - [x] Photo
     - [x] GIF
     - [x] Live Photo
     - [x] Video
-- [x] 支持的本地资源类型：
+- [x] Supported local media types：
     - [x] Photo
     - [x] Video
     - [x] GIF
     - [x] Live Photo
-- [x] 支持的网络资源类型：
+- [x] Supported network media types：
     - [x] Photo
     - [x] Video
-- [x] 支持下载iCloud上的资源
-- [x] 支持手势返回
-- [x] 支持滑动选择
-- [x] 编辑图片（支持动图、网络资源）
-    - [x] 涂鸦
-    - [x] 贴纸
-    - [x] 文字
-    - [x] 裁剪
-    - [x] 旋转任意角度
-    - [x] 自定义蒙版
-    - [x] 马赛克
-    - [x] 画面调整
-    - [x] 滤镜
-- [x] 编辑视频（支持网络资源）
-    - [x] 涂鸦
-    - [x] 贴纸（支持GIF）
-    - [x] 文字
-    - [x] 配乐（支持歌词字幕）
-    - [x] 裁剪时长
-    - [x] 裁剪尺寸
-    - [x] 旋转任意角度
-    - [x] 自定义蒙版
-    - [x] 画面调整
-    - [x] 滤镜
-- [x] 相册展现方式
-    - [x] 单独列表
-    - [x] 弹窗
-- [x] 多平台支持
+- [x] Support downloading assets on iCloud
+- [x] Support gesture back
+- [x] Support sliding selection
+- [x] Edit pictures (support animated pictures, network pictures)
+    - [x] Graffiti
+    - [x] Sticker
+    - [x] Text
+    - [x] Crop
+    - [x] Mosaic
+    - [x] Filter
+- [x] Edit video (support network video)
+    - [x] Graffiti
+    - [x] Stickers (support GIF)
+    - [x] Text
+    - [x] Soundtrack (support lyrics and subtitles)
+    - [x] Crop duration
+    - [x] Crop Size
+    - [x] Filter
+- [x] Album display mode
+    - [x] Separate list
+    - [x] Pop-ups
+- [x] Multi-platform support
     - [x] iOS
     - [x] iPadOS
     - [x] Mac Catalyst
-- [x] 国际化支持
-    - [x] 🇨🇳 简体中文 (zh-Hans)
-    - [x] 🇨🇳 繁体中文 (zh-Hant)
-    - [x] 🇬🇧 英文 (en)
-    - [x] 🇯🇵 日语 (ja)
-    - [x] 🇰🇷 韩语 (ko)
-    - [x] 🇹🇭 泰语 (th)
-    - [x] 🇮🇳 印尼语 (id)
-    - [x] 🇻🇳 越南语 (vi)
-    - [x] 🇷🇺 俄罗斯 (ru)
-    - [x] 🇩🇪 德国 (de)
-    - [x] 🇫🇷 法国 (fr)
-    - [x] 🇸🇦 阿拉伯 (ar)
-    - [x] ✍️ 自定义语言 (custom)
-    - [ ] 🤝 更多支持... (欢迎PR)
-
-## <a id="要求"></a> 要求
+- [x] Internationalization support
+    - [x] 🇨🇳 Chinese, Simplified (zh-Hans)
+    - [x] 🇬🇧 English (en)
+    - [x] 🇨🇳 Chinese, traditional (zh-Hant)
+    - [x] 🇯🇵 Japanese (ja)
+    - [x] 🇰🇷 Korean (ko)
+    - [x] 🇹🇭 Thai (th)
+    - [x] 🇮🇳 Indonesian (id)
+    - [x] 🇻🇳 Vietnamese (vi)
+    - [x] 🇷🇺 russian (ru)
+    - [x] 🇩🇪 german (de)
+    - [x] 🇫🇷 french (fr)
+    - [x] 🇸🇦 arabic (ar)
+    - [x] ✍️ Custom language (custom)
+    - [ ] 🤝 More support... (Pull requests welcome)
+    
+## <a id="Requirements"></a> Requirements
 
 - iOS 10.0+
 - Xcode 12.5+
 - Swift 5.4+
 
-## <a id="安装"></a> 安装
+## Installation
 
 ### [Swift Package Manager](https://swift.org/package-manager/)
 
-⚠️ 需要 Xcode 13.0 及以上版本来支持资源文件/本地化文件的添加。
+⚠️ Needs Xcode 13.0+ to support resources and localization files
 
 ```swift
 dependencies: [
@@ -109,73 +89,61 @@ dependencies: [
 
 ### [CocoaPods](https://guides.cocoapods.org/using/using-cocoapods.html)
 
-将下面内容添加到 `Podfile`，并执行依赖更新。
+Add this to Podfile, and then update dependency:
 
 ```swift
 
-/// iOS 10.0+ 默认不支持GIF和网络图片
+/// iOS 10.0+ GIF and network images are not supported by default
 pod 'HXPhotoPicker'
 
-/// 使用`SwiftyGif`加载GIF图片
+/// Use `SwiftyGif` to display GIF images
 pod 'HXPhotoPicker/SwiftyGif'
 
-/// 使用`SDWebImage`加载GIF/网络图片
+/// Use `SDWebImage` to display network images
 pod 'HXPhotoPicker/SDWebImage'
 
-/// 使用`Kingfisher v6.0.0`加载GIF/网络图片
+/// Displaying network images using `Kingfisher v6.0.0`
 pod 'HXPhotoPicker/Kingfisher'
 
-/// 相机不包含定位功能
-pod `HXPhotoPicker/NoLocation`
-
-/// 只有选择器
+/// Only Picker
 pod `HXPhotoPicker/Picker`
 
-/// 只有编辑器
+/// Only Editor
 pod `HXPhotoPicker/Editor`
 
-/// 只有相机
+/// Only Camera
 pod `HXPhotoPicker/Camera`
-/// 不包含定位功能
+/// Does not include location functionality
 pod `HXPhotoPicker/Camera/Lite`
 
-v4.0以下的ObjC版本
-pod 'HXPhotoPickerObjC'
 ```
 
-### 准备工作
+### Prepare
 
-按需在你的 Info.plist 中添加以下键值:
+Add these keys to your Info.plist when needed:
 
-| Key | 模块 | 备注 |
+| Key | Module | Info |
 | ----- | ----  | ---- |
-| NSPhotoLibraryUsageDescription | Picker | 允许访问相册 |
-| NSPhotoLibraryAddUsageDescription | Picker | 允许保存图片至相册 |
-| PHPhotoLibraryPreventAutomaticLimitedAccessAlert | Picker | 设置为 `YES` iOS 14+ 以禁用自动弹出添加更多照片的弹框(Picker 已适配 Limited 功能，可由用户主动触发，提升用户体验) |
-| NSCameraUsageDescription | Camera | 允许使用相机 |
-| NSMicrophoneUsageDescription | Camera | 允许使用麦克风 |
+| NSPhotoLibraryUsageDescription | Picker | Allow access to album |
+| NSPhotoLibraryAddUsageDescription | Picker | Allow to save pictures to album |
+| PHPhotoLibraryPreventAutomaticLimitedAccessAlert | Picker | Set YES to prevent automatic limited access alert in iOS 14+ (Picker has been adapted with Limited features that can be triggered by the user to enhance the user experience) |
+| NSCameraUsageDescription | Camera | Allow camera |
+| NSMicrophoneUsageDescription | Camera | Allow microphone |
 
-### <a id="示例"></a> 快速上手
+### Quick Start
 ```swift
 import HXPhotoPicker
 
 class ViewController: UIViewController {
 
     func presentPickerController() {
-        // 设置与微信主题一致的配置
-        let config = PickerConfiguration.default
-        
-        // 方法一：async/await
-        // 使用`Photo`
+        let config = PickerConfiguration()
+                
+        // Method 1：async/await
         let images: [UIImage] = try await Photo.picker(config)
         let urls: [URL] = try await Photo.picker(config)
         let urlResult: [AssetURLResult] = try await Photo.picker(config)
         let assetResult: [AssetResult] = try await Photo.picker(config)
-        // 使用`PhotoPickerController`
-        let images: [UIImage] = try await PhotoPickerController.picker(config)
-        let urls: [URL] = try await PhotoPickerController.picker(config)
-        let urlResult: [AssetURLResult] = try await PhotoPickerController.picker(config)
-        let assetResult: [AssetResult] = try await PhotoPickerController.picker(config)
         
         let pickerResult = try await Photo.picker(config)
         let images: [UIImage] = try await pickerResult.objects()
@@ -183,43 +151,41 @@ class ViewController: UIViewController {
         let urlResults: [AssetURLResult] = try await pickerResult.objects()
         let assetResults: [AssetResult] = try await pickerResult.objects()
         
-        // 方法二：
+        // Method 2：
         let pickerController = PhotoPickerController(picker: config)
         pickerController.pickerDelegate = self
-        // 当前被选择的资源对应的 PhotoAsset 对象数组
+        // The array of PhotoAsset objects corresponding to the currently selected asset
         pickerController.selectedAssetArray = selectedAssets 
-        // 是否选中原图
+        // Whether to select the original image
         pickerController.isOriginal = isOriginal
         present(pickerController, animated: true, completion: nil)
         
-        // 方法三：
+        // Method 3：
         Photo.picker(
             config
         ) { result, pickerController in
-            // 选择完成的回调
-            // result 选择结果
-            //  .photoAssets 当前选择的数据
-            //  .isOriginal 是否选中了原图
-            // photoPickerController 对应的照片选择控制器
+            // Select completion callback
+            // result Select result
+            //  .photoAssets Currently selected data
+            //  .isOriginal Whether the original image is selected
+            // photoPickerController Corresponding photo selection controller
         } cancel: { pickerController in
-            // 取消的回调
-            // photoPickerController 对应的照片选择控制器 
+            // Cancelled callback
+            // photoPickerController Corresponding photo selection controller
         }
     }
 }
 
 extension ViewController: PhotoPickerControllerDelegate {
     
-    /// 选择完成之后调用
+    /// Called after the selection is complete
     /// - Parameters:
-    ///   - pickerController: 对应的 PhotoPickerController
-    ///   - result: 选择的结果
-    ///     result.photoAssets  选择的资源数组
-    ///     result.isOriginal   是否选中原图
-    func pickerController(
-        _ pickerController: PhotoPickerController, 
-        didFinishSelection result: PickerResult
-    ) {
+    ///   - pickerController: corresponding PhotoPickerController
+    ///   - result: Selected result
+    ///     result.photoAssets  Selected asset array
+    ///     result.isOriginal   Whether to select the original image
+    func pickerController(_ pickerController: PhotoPickerController, 
+                            didFinishSelection result: PickerResult) {
         // async/await
         let images: [UIImage] = try await result.objects()
         let urls: [URL] = try await result.objects()
@@ -237,15 +203,15 @@ extension ViewController: PhotoPickerControllerDelegate {
         }
     }
     
-    /// 点击取消时调用
-    /// - Parameter pickerController: 对应的 PhotoPickerController
+    /// Called when cancel is clicked
+    /// - Parameter pickerController: Corresponding PhotoPickerController
     func pickerController(didCancel pickerController: PhotoPickerController) {
         
     }
 }
 ```
 
-### <a id="如何支持GIF/网络图片"></a> 如何支持GIF/网络图片 [HXImageViewProtocol](https://github.com/SilenceLove/HXPhotoPicker/tree/master/Sources/HXPhotoPicker/Core/Config/HXImageViewProtocol.swift)
+### <a id="How to support GIF/network images"></a> How to support GIF/network images [HXImageViewProtocol](https://github.com/SilenceLove/HXPhotoPicker/tree/master/Sources/HXPhotoPicker/Core/Config/HXImageViewProtocol.swift)
 
 <details>
   <summary><strong><a href="https://github.com/SilenceLove/HXPhotoPicker/tree/master/Sources/ImageView/GIFImageView.swift">SwiftyGif</a> </strong></summary>
@@ -678,59 +644,59 @@ public class KFImageView: AnimatedImageView, HXImageViewProtocol {
 </details>
 
 
-### <a id="如何获取"></a> 如何获取
+### Get Content
 
-#### 获取 UIImage
+#### Get UIImage
 
 ```swift
-/// 如果为视频的话获取则是视频封面
+/// If it is a video, get the cover of the video
+
 // async/await
-// compression: 压缩参数，不传则不压缩 
+// compression: if not passed, no compression 
 let image: UIImage = try await photoAsset.object(compression)
 
-/// 获取指定`Size`的`UIImage`
-/// targetSize: 指定imageSize
-/// targetMode: 裁剪模式
+/// Get the `UIImage` of the specified `Size`
+/// targetSize: specify imageSize
+/// targetMode: crop mode
 let image = try await photoAsset.image(targetSize: .init(width: 200, height: 200), targetMode: .fill)
 
-// compressionQuality: 压缩参数，不传则不压缩 
+// compressionQuality: Compress parameters, if not passed, no compression 
 photoAsset.getImage(compressionQuality: compressionQuality) { image in
     print(image)
 }
 ```
 
-#### 获取 URL
+#### Get URL
 
 ```swift
 // async/await 
-// compression: 压缩参数，不传则不压缩 
+// compression: if not passed, no compression
 let url: URL = try await photoAsset.object(compression)
 let urlResult: AssetURLResult = try await photoAsset.object(compression)
+let assetResult: AssetResult = try await photoAsset.object(compression)
 
-// compression: 压缩参数，不传则不压缩
+/// compression: Compress parameters, if not passed, no compression
 photoAsset.getURL(compression: compression) { result in
     switch result {
-    case .success(let urlResult):
-        // 媒体类型
+    case .success(let urlResult): 
+        
         switch urlResult.mediaType {
         case .photo:
-            // 图片
+        
         case .video:
-            // 视频
+        
         }
         
-        // url类型
         switch urlResult.urlType {
         case .local:
-            // 本地URL
+        
         case .network:
-            // 网络URL
+        
         }
         
-        // 获取的地址
         print(urlResult.url)
         
-        // LivePhoto 里面包含的 图片和视频 url
+        // Image and video urls contained in LivePhoto
         print(urlResult.livePhoto) 
         
     case .failure(let error):
@@ -739,82 +705,80 @@ photoAsset.getURL(compression: compression) { result in
 }
 ```
 
-#### 获取其他
+#### Get Other
 
 ```swift
-/// 获取缩略图
+/// Get thumbnail
 let thumImage = try await photoAsset.requesThumbnailImage()
 
-/// 获取预览图
+/// Get preview
 let previewImage = try await photoAsset.requestPreviewImage()
 
-/// 获取 AVAsset
+/// Get AVAsset
 let avAsset = try await photoAsset.requestAVAsset()
 
-/// 获取 AVPlayerItem
+/// Get AVPlayerItem
 let playerItem = try await photoAsset.requestPlayerItem()
 
-/// 获取 PHLivePhoto
+/// Get PHLivePhoto
 let livePhoto = try await photoAsset.requestLivePhoto()
 ```
 
-## <a id="更新记录"></a> 更新日志
+## Release Notes
 
-<details open id="最近更新">
-  <summary><strong>最近更新</strong></summary>
+<details open id="Latest updates">
+  <summary><strong>Latest updates</strong></summary>
   
-| 版本 | 发布时间 | Xcode | Swift | iOS |
+| Version | Release Date | Xcode | Swift | iOS |
 | ---- | ----  | ---- | ---- | ---- |
-| [v5.0.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#504) | 2025-09-19 | 26.0.0 | 6.0.0 | 10.0+ | 
+| [v5.0.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#504) | 2025-09-19 | 26.0.0 | 6.0.0 | 10.0+ | 
+</details>
+
+<details open id="History record">
+  <summary><strong>History record</strong></summary>
+  
+| Version | Release Date | Xcode | Swift | iOS |
+| ---- | ----  | ---- | ---- | ---- |
+| [v5.0.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#503) | 2025-07-03 | 16.2.0 | 6.0.0 | 10.0+ | 
+| [v5.0.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#502) | 2025-05-21 | 16.2.0 | 6.0.0 | 10.0+ | 
+| [v5.0.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#501) | 2025-03-31 | 16.0.0 | 6.0.0 | 10.0+ | 
+| [v5.0.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#500) | 2025-03-03 | 16.0.0 | 6.0.0 | 10.0+ | 
+| [v4.2.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#425) | 2025-02-12 | 16.0.0 | 6.0.0 | 13.0+ | 
+| [v4.2.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#424) | 2024-12-14 | 16.0.0 | 6.0.0 | 13.0+ | 
+| [v4.2.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#423) | 2024-08-05 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.2.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#422) | 2024-07-08 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.2.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#421) | 2024-05-18 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.2.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#420) | 2024-04-23 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.9](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#419) | 2024-04-09 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.8](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#418) | 2024-03-24 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.7](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#417) | 2024-03-09 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.6](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#416) | 2024-02-16 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#415) | 2024-01-10 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#414) | 2023-12-24 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#413) | 2023-12-16 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#412) | 2023-12-02 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#411) | 2023-11-14 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.1.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#410) | 2023-11-07 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.0.9](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#409) | 2023-10-22 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.0.8](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#408) | 2023-10-13 | 15.0.0 | 5.9.0 | 12.0+ |
+| [v4.0.7](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#407) | 2023-09-23 | 14.3.0 | 5.7.0 | 12.0+ |
+| [v4.0.6](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#406) | 2023-09-09 | 14.3.0 | 5.7.0 | 12.0+ |
+| [v4.0.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#405) | 2023-08-12 | 14.3.0 | 5.7.0 | 12.0+ |
+| [v4.0.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#404) | 2023-07-30 | 14.3.0 | 5.7.0 | 12.0+ |
+| [v4.0.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#403) | 2023-07-06 | 14.3.0 | 5.7.0 | 12.0+ |
+| [v4.0.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#402) | 2023-06-24 | 14.3.0 | 5.7.0 | 12.0+ | 
+| [v4.0.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#401) | 2023-06-17 | 14.3.0 | 5.7.0 | 12.0+ | 
+| [v4.0.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE.md#400) | 2023-06-15 | 14.3.0 | 5.7.0 | 12.0+ | 
 
 </details>
 
-<details id="历史记录">
-  <summary><strong>历史记录</strong></summary>
-  
-| 版本 | 发布时间 | Xcode | Swift | iOS |
-| ---- | ----  | ---- | ---- | ---- |
-| [v5.0.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#503) | 2025-07-03 | 16.2.0 | 6.0.0 | 10.0+ | 
-| [v5.0.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#502) | 2025-05-21 | 16.2.0 | 6.0.0 | 10.0+ | 
-| [v5.0.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#501) | 2025-03-31 | 16.0.0 | 6.0.0 | 10.0+ | 
-| [v5.0.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#500) | 2025-03-03 | 16.0.0 | 6.0.0 | 10.0+ | 
-| [v4.2.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#425) | 2025-02-12 | 16.0.0 | 6.0.0 | 13.0+ | 
-| [v4.2.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#424) | 2024-12-14 | 16.0.0 | 6.0.0 | 13.0+ | 
-| [v4.2.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#423) | 2024-08-05 | 16.0.0 | 6.0.0 | 12.0+ | 
-| [v4.2.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#422) | 2024-07-08 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.2.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#421) | 2024-05-18 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.2.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#420) | 2024-04-23 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.9](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#419) | 2024-04-09 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.8](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#418) | 2024-03-24 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.7](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#417) | 2024-03-09 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.6](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#416) | 2024-02-16 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#415) | 2024-01-10 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#414) | 2023-12-24 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#413) | 2023-12-16 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#412) | 2023-12-02 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#411) | 2023-11-14 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.1.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#410) | 2023-11-07 | 15.0.0 | 5.9.0 | 12.0+ | 
-| [v4.0.9](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#409) | 2023-10-22 | 15.0.0 | 5.9.0 | 12.0+ |
-| [v4.0.8](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#408) | 2023-10-13 | 15.0.0 | 5.9.0 | 12.0+ |
-| [v4.0.7](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#407) | 2023-09-23 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.6](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#406) | 2023-09-09 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.5](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#405) | 2023-08-12 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.4](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#404) | 2023-07-30 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.3](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#403) | 2023-07-06 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.2](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#402) | 2023-06-24 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.1](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#401) | 2023-06-17 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v4.0.0](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/RELEASE_NOTE_CN.md#400) | 2023-06-15 | 14.3.0 | 5.7.0 | 12.0+ |
-| [v3.0.0](https://github.com/SilenceLove/HXPhotoPickerObjC#-%E6%9B%B4%E6%96%B0%E8%AE%B0%E5%BD%95---update-history) | 2022-09-18 | 14.0.0 | ----- | 8.0+ | 
+## Demonstration effect
 
-</details>
-
-## <a id="演示效果"></a> 演示效果
-
-| 选择照片 | 图片编辑 | 视频编辑 | 
+| Choose a photo | Picture editing | Video editing |  
 | ---- | ----  | ---- |
 | [![IMAGE ALT TEXT](https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Videos/photo_list_picker_cover.png?raw=true)](http://oss-cn-hangzhou.aliyuncs.com/tsnrhapp/shop/videos/83862ab94facfd8979eb6148094908b2.mp4) | [![IMAGE ALT TEXT](https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Videos/photo_editor_cover.png?raw=true)](http://oss-cn-hangzhou.aliyuncs.com/tsnrhapp/shop/videos/3c81199474e33006e2cebd5f6241ead5.mp4) | [![IMAGE ALT TEXT](https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Videos/video_editor_cover.png?raw=true)](http://oss-cn-hangzhou.aliyuncs.com/tsnrhapp/shop/videos/8c1cf86f32329e6464d327781f15041a.mp4) | 
 
-## <a id="界面展示"></a> 界面展示
+## Views display
 
 | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Photos/sample_graph_photo_picker_list.png?raw=true"> | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Photos/sample_graph_photo_preview.png?raw=true"> | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Photos/sample_graph_photo_editor_filter.png?raw=true"> | 
 | ---- | ----  | ---- |
@@ -823,19 +787,23 @@ let livePhoto = try await photoAsset.requestLivePhoto()
 | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Photos/sample_graph_photo_editor_crop_size_horizontal_screen.png?raw=true"> | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/README/Photos/sample_graph_video_editor_crop_size_horizontal_screen.png?raw=true"> |
 | ---- | ----  |
 
-## 版权协议 
-HXPhotoPicker 基于 MIT 协议进行分发和使用，更多信息参见[协议文件](./LICENSE)。 
+## License
 
-## <a id="支持❤️"></a> 支持❤️
-* [**★ Star**](#)
-* 支持作者☕️ 
-    
-<div align="left"><a href="https://www.buymeacoffee.com/fengye" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a></div> 
+HXPhotoPicker is released under the MIT license. See LICENSE for details.
+
+## Support❤️
+* [**★ Star**](#) this repo.
+* Support with 
 
 | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/Support/bmc_qr.png?raw=true" width = "135" height = "135" /> | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/Support/ap.jpeg?raw=true" width = "100" height = "135.75" />   | <img src="https://github.com/SilenceLove/PictureMaterial/blob/main/HXPhotoPicker/Support/wp.jpeg?raw=true" width = "100" height = "135.75" /> |
 | ------ | ------ | ------ | 
 
+
+## Stargazers over time
+
 [![Stargazers over time](https://starchart.cc/SilenceLove/HXPhotoPicker.svg)](https://starchart.cc/SilenceLove/HXPhotoPicker)
 
+[🔝](https://github.com/SilenceLove/HXPhotoPicker/blob/master/Documentation/README_EN.md#-features)
 
-[🔝回到顶部](#readme)
+
+
